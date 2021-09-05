@@ -1,0 +1,145 @@
+body{
+    /*font-size:small;
+    font-family:Verdana, Helvetica, Arial, sans-serif;
+    line-height:1.6em;межстрочный интервал в 1.6 раз больше размера шрифта*/
+    font:small/1.6em Verdana, Helvetica, Arial, sans-serif;
+}
+h1,h2{
+    color:rgb(0,126,126);
+}
+h1{
+    font-size:150%;
+}
+h2{
+    font-size:130%;
+}
+#guarantee{
+   border: dashed white 2px;
+    padding:25px;/*добавляем отступы по 25 пикселей со всех сторон содержимого*/
+    margin:30px;/*добавляем поля*/
+    /*line-height:1.9em;*/
+    color:#444444;
+    font:italic 100%/1.9em Georgia, "Times New Roman", Times, serif;
+   /* font-family:Georgia, "Times New Roman", Times, serif;
+    font-style:italic;*/
+    background-position:top left;
+    background:url(images/background.gif) no-repeat  #a7cece;
+    padding-left: 80px;
+    margin-right:1000px;
+    border-radius: 15px;
+}
+#elixirs{
+    /*border-style: solid;
+    border-color:#007e7e;
+    border-width: thin;*/
+    border:thin #007e7e solid ;/*в любом порядке важно чтобы был solid*/
+    width:200px;
+    /*padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;*/
+    padding:0px 20px 20px 20px;
+    text-align:center;
+    margin-left:20px;
+   /* background-image: url(images/cocktail.gif);
+    background-repeat:repeat-x;*/
+    background:rgb(255, 255, 255) url(images/cocktail.gif) repeat-x;
+    line-height:1;
+    float:right;
+}
+/*#elixirs h2-ВСЕ потомки 
+#elixirs>h2-только дети непосрелственно
+можно даже сделать так:
+#elixiirs blockquote h2
+тогда
+Таким образом будут выбраны элементы 
+<h2>, являющиеся потомками элементов 
+<blockquote>, которые в свою очередь являются потомками элемента с идентификатором elixirs.*/
+#elixirs h2{
+color:black;
+}
+#elixirs h3{
+    color:#d12c47;
+}
+#colontitul{
+font-size:50%;
+text-align:center;
+line-height:normal;
+margin-top:30px;
+}
+.cd{
+    font-style:italic;
+}
+.artist{
+    font-weight: bold;
+}
+#elixirs a:link{
+color:#007e7e;
+}
+#elixirs a:visited{
+    color: #333333;
+}
+#elixirs a:hover{
+    background: #f88396;
+    color:  #0d5353;
+}
+a:link{
+    color:#007e7e;
+}
+a:visited{
+        color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*если в css коде есть ошибка то все правила расположенные после этой ошибки просто игнорируются*/
+/*p{
+    color:maroon;
+}
+a{
+    color:maroon;
+}
+h1,h2{
+    color: gray;
+}   
+h1
+{
+    border-bottom: 1px solid black;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+p.blueberry{
+    color:purple;
+}
+p.greentea{
+    color:chartreuse;
+}
+p.raspberry{
+    color:blue;
+}*/
